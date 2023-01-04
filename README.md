@@ -8,7 +8,7 @@ People can then book a bar to play with friends.
 ### Clone the repository
 
 ```shell
-git clone git@github.com:FabrizioDurand/rails-simple-airbnb.git
+git clone git@github.com:FabrizioDurand/as_des_as.git
 cd project
 ```
 
