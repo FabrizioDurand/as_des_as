@@ -30,24 +30,6 @@ Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.co
 bundle && yarn
 ```
 
-### Initialize the database
-
-```shell
-rails db:create db:migrate db:seed
-```
-
-## Serve
-
-Launch in two different terminal windows:
-
-```shell
-rails s
-```
-
-```shell
-yarn build --watch
-```
-
 ## Add Cloudinary and Mapbox API key
 
 In order to enjoy the website, you will need to import your own cloudinary and Mapbox API key in a .env file at the root of the folder.
@@ -63,6 +45,24 @@ Add the API keys inside, it should look like something like this
 ```shell
 CLOUDINARY_URL=cloudinary://11XXXb8kd
 MAPBOX_API_KEY=pk.eyJ1IjoiZmXXosw
+```
+
+## Initialize the database
+
+```shell
+rails db:create db:migrate db:seed
+```
+
+## Serve
+
+Launch in two different terminal windows:
+
+```shell
+rails s
+```
+
+```shell
+yarn build --watch
 ```
 
 ## Enjoy
